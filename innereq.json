@@ -1,0 +1,20 @@
+{
+    "brandColor": "#D085D0",
+    "promoPanel": {
+        "items": [{
+            "icon": "sun-o",
+            "text": "Глагне",
+            "url": "https://sunbutt.faith"
+        },
+        {
+        "icon": "list",
+        "text": "Pleroma",
+        "url": "https://sect.sunbutt.faith"
+        }, {
+        "icon": "table",
+        "text": "Mastodon",
+        "url": "https://sect.sunbutt.faith/web"
+        }]
+    },
+    "copyright": "Все права принадлежат пони. Весь мир принадлежит пони."
+}
