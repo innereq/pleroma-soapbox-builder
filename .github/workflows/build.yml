@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-          repository: "https://gitlab.com/soapbox-pub/soapbox-fe"
+      - shell: bash
+        run: |
+          git clone https://gitlab.com/soapbox-pub/soapbox-fe .
 
       - name: "Install Node toolchain"
         uses: actions/setup-node@v1
