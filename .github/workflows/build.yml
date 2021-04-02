@@ -52,9 +52,9 @@ jobs:
         run: |
           tar -zxvf soapbox.tar.gz -C /tmp
           mkdir innereq
-          xargs -n1 cp -pr /tmp/soapbox <<< "innereq/soap.sunbutt.faith"
-          mv innereq.json innereq/soap.sunbutt.faith/instance/soapbox.json
-          mv innereq_about innereq/soap.sunbutt.faith/instance/about
+          xargs -n1 cp -pr /tmp/soapbox <<< "innereq/soap.sect.sunbutt.faith"
+          mv innereq.json innereq/soap.sect.sunbutt.faith/instance/soapbox.json
+          mv innereq_about innereq/soap.sect.sunbutt.faith/instance/about
 
       - name: "Upload Soapbox-FE package for Inner Equestria"
         uses: actions/upload-artifact@v2
