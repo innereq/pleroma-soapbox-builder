@@ -81,6 +81,6 @@ jobs:
           key: ${{ secrets.CI_DEPLOYER_SSH_KEY_INNEREQ }}
           port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
           source: soap.sect.sunbutt.faith
-          target: /srv/http/soap.sunbutt.faith
+          target: /srv/http/soap.sect.sunbutt.faith
           strip_components: 1
           rm: true
